@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PockeCats - British Shorthair de Excelencia</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Criadero especializado en gatos British Shorthair. Gatos sanos, con pedigree y excelente temperamento. Encuentra tu compañero ideal en PockeCats.">
+    <meta name="keywords" content="British Shorthair, gatos de raza, criadero de gatos, PockeCats, gatitos, mascotas">
+    <meta name="author" content="PockeCats Team">
+
+    <!-- Fonts (Using system fonts stack for performance, but defined in CSS variables) -->
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <!-- Placeholder Logo SVG -->
+                    <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" stroke="#FFD700" stroke-width="5"/>
+                        <path d="M30 40 L40 20 L50 40 L60 20 L70 40" stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="35" cy="55" r="5" fill="#333"/>
+                        <circle cx="65" cy="55" r="5" fill="#333"/>
+                        <path d="M40 70 Q50 80 60 70" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    Pocke<span>Cats</span>
+                </a>
+                 <!-- 
+                    <a href="#" class="logo">
+
+                      <img
+                        src="assets/images/logo/logo.jpeg"
+                        alt="PockeCats Logo"
+                        style="width:50px;height:50px;object-fit:contain;">
+
+                        Pocke<span>Cats</span>
+
+                    </a>
+                 -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#family">Familia</a></li>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#about">Quiénes Somos</a></li>
+                </ul>
+                <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Elegancia y Ternura British Shorthair</h1>
+                    <p>Descubre la compañía perfecta. Criamos gatos British Shorthair con los más altos estándares de salud, belleza y temperamento equilibrado.</p>
+                    <a href="#catalog" class="btn btn-primary">Ver Gatitos Disponibles</a>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <span class="feature-icon">🛡️</span>
+                            <h4>Salud Garantizada</h4>
+                            <p>Vacunación completa y certificado veterinario.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">❤️</span>
+                            <h4>Temperamento</h4>
+                            <p>Sociables, tranquilos y muy cariñosos.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">🏆</span>
+                            <h4>Pedigree</h4>
+                            <p>Líneas de sangre campeonas seleccionadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <!-- Imagen generada dinámicamente o placeholder -->
+                    <img src="assets\images\home\hero.jpg.jpeg"alt="Gato British Shorthair Azul"id="heroImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Familia -->
+    <section id="family">
+        <div class="container">
+            <h2 class="section-title">Nuestra Familia Real</h2>
+            <p style="text-align: center; color: var(--color-secondary);">Conoce a los padres de nuestras futuras camadas</p>
+            
+            <div class="parents-grid" id="parentsGrid">
+                <!-- Se llena con JS -->
+            </div>
+
+            <div class="catalog-cta">
+                <a href="#catalog" class="btn btn-outline">Ver Catálogo Completo ↓</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Catálogo -->
+    <section id="catalog">
+        <div class="container">
+            <h2 class="section-title">Gatitos Disponibles</h2>
+            <div class="cats-grid" id="catsGrid">
+                <!-- Se llena con JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Detalle Gato -->
+    <div class="modal" id="catModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-gallery">
+                <img src="" alt="" class="main-image" id="modalMainImg">
+                <div class="thumbnails" id="modalThumbnails"></div>
+            </div>
+            <div class="modal-info">
+                <h2 id="modalName">Nombre</h2>
+                <div class="modal-price" id="modalPrice">$0.00</div>
+                
+                <div class="info-row">
+                    <span class="info-label">Edad:</span> <span id="modalAge"></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Color:</span> <span id="modalColor"></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Personalidad:</span> <span id="modalPersonality"></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Descripción:</span>
+                    <p id="modalDesc" style="margin-top: 5px; font-size: 0.95rem;"></p>
+                </div>
+
+                <button class="btn btn-primary" id="whatsappBtn" style="width: 100%; margin-top: 20px;">
+                    Estoy interesado en este gato
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Nuestra Misión</h3>
+                    <p>En PockeCats, nos dedicamos a preservar y mejorar la raza British Shorthair, criando gatos que no solo cumplan con los estándares estéticos, sino que destaquen por su salud robusta y temperamento equilibrado.</p>
+                    
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser reconocidos como el criadero líder en calidad y ética, creando familias felices a través de la conexión especial que solo un British Shorthair puede ofrecer.</p>
+                    
+                    <h3>Valores</h3>
+                    <ul style="list-style: disc; margin-left: 20px; color: var(--color-secondary);">
+                        <li>Transparencia total en el proceso de adopción.</li>
+                        <li>Bienestar animal por encima de intereses comerciales.</li>
+                        <li>Acompañamiento post-venta continuo.</li>
+                    </ul>
+                </div>
+                
+                <div class="director-card" id="directorCard">
+                    <!-- Se llena con JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>PockeCats</h3>
+                <p>Amor en cada huella.</p>
+                <div id="footerContactInfo"></div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 PockeCats. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
