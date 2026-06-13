@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PockeCats - British Shorthair de Excelencia</title>
-    
+    <title>PokeCats - British Shorthair de Excelencia</title>
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Criadero especializado en gatos British Shorthair. Gatos sanos, con pedigree y excelente temperamento. Encuentra tu compañero ideal en PockeCats.">
+    <meta name="description"
+        content="Criadero especializado en gatos British Shorthair. Gatos sanos, con pedigree y excelente temperamento. Encuentra tu compañero ideal en PockeCats.">
     <meta name="keywords" content="British Shorthair, gatos de raza, criadero de gatos, PockeCats, gatitos, mascotas">
     <meta name="author" content="PockeCats Team">
 
     <!-- Fonts (Using system fonts stack for performance, but defined in CSS variables) -->
-    
+
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
+
 <body>
 
     <!-- Navegación -->
@@ -24,15 +27,16 @@
                 <a href="#" class="logo">
                     <!-- Placeholder Logo SVG -->
                     <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="50" cy="50" r="45" stroke="#FFD700" stroke-width="5"/>
-                        <path d="M30 40 L40 20 L50 40 L60 20 L70 40" stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <circle cx="35" cy="55" r="5" fill="#333"/>
-                        <circle cx="65" cy="55" r="5" fill="#333"/>
-                        <path d="M40 70 Q50 80 60 70" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="50" cy="50" r="45" stroke="#FFD700" stroke-width="5" />
+                        <path d="M30 40 L40 20 L50 40 L60 20 L70 40" stroke="#333" stroke-width="5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="35" cy="55" r="5" fill="#333" />
+                        <circle cx="65" cy="55" r="5" fill="#333" />
+                        <path d="M40 70 Q50 80 60 70" stroke="#333" stroke-width="3" stroke-linecap="round" />
                     </svg>
-                    Pocke<span>Cats</span>
+                    Poke<span>Cats</span>
                 </a>
-                 <!-- 
+                <!-- 
                     <a href="#" class="logo">
 
                       <img
@@ -46,8 +50,9 @@
                  -->
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Inicio</a></li>
-                    <li><a href="#family">Familia</a></li>
+                    <li><a href="#family">Padres</a></li>
                     <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#historias">Historias</a></li>
                     <li><a href="#about">Quiénes Somos</a></li>
                 </ul>
                 <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
@@ -60,32 +65,43 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Elegancia y Ternura British Shorthair</h1>
-                    <p>Descubre la compañía perfecta. Criamos gatos British Shorthair con los más altos estándares de salud, belleza y temperamento equilibrado.</p>
+                    <h1>La Nobleza Elegancia Del British Shorthair</h1>
+                    <p>Descubre la compañía perfecta al lado de nuestros ejemplares, con buenos estándares de salud, belleza,
+                             ética y temperamento equilibrado.</p>
+                             <p>Criamos hermosos gatos british shorthair, en Bogotá Colombia,
+                         registrados: The International Cat Association (TICA).</p>
+                         
                     <a href="#catalog" class="btn btn-primary">Ver Gatitos Disponibles</a>
-                    
+
                     <div class="features-grid">
-                        <div class="feature-card">
+                        <div class="feature-card ">
                             <span class="feature-icon">🛡️</span>
-                            <h4>Salud Garantizada</h4>
-                            <p>Vacunación completa y certificado veterinario.</p>
+                            <h3>Salud Garantizada</h3>                            
+                               <ul>
+                                <li>Primera dosis de la vacuna triple viral.</li>
+                                <li>Esterilizados.</li>
+                                <li>Examen de leucemia e inmunodeficiencia.</li>
+                               </ul>
                         </div>
                         <div class="feature-card">
                             <span class="feature-icon">❤️</span>
-                            <h4>Temperamento</h4>
-                            <p>Sociables, tranquilos y muy cariñosos.</p>
+                            <h3>Comportamiento</h3>
+                            <p>🐈Comiendo y yendo a la arena por sí solo.</p>
+                            <p>😻Independientes, sociables y cariñosos.</p>
                         </div>
                         <div class="feature-card">
                             <span class="feature-icon">🏆</span>
-                            <h4>Pedigree</h4>
-                            <p>Líneas de sangre campeonas seleccionadas.</p>
-                        </div>
+                            <h3>Pedigree</h3>
+                            <p>Líneas de sangre campeona Breeder Slip.</p>
+                        </div>                       
                     </div>
                 </div>
                 <div class="hero-image-container">
                     <!-- Imagen generada dinámicamente o placeholder -->
-                    <img src="assets\images\home\hero.jpg.jpeg"alt="Gato British Shorthair Azul"id="heroImg">
+                    <img src="assets\images\home\hero.jpg.jpeg" alt="Gato British Shorthair Azul" id="heroImg">
+                    
                 </div>
+                
             </div>
         </div>
     </section>
@@ -93,9 +109,10 @@
     <!-- Sección Familia -->
     <section id="family">
         <div class="container">
-            <h2 class="section-title">Nuestra Familia Real</h2>
-            <p style="text-align: center; color: var(--color-secondary);">Conoce a los padres de nuestras futuras camadas</p>
-            
+            <h2 class="section-title">Nuestros Padres</h2>
+            <p style="text-align: center; color: var(--color-secondary);">Conoce a los padres de nuestras futuras
+                camadas</p>
+
             <div class="parents-grid" id="parentsGrid">
                 <!-- Se llena con JS -->
             </div>
@@ -116,10 +133,10 @@
         </div>
     </section>
 
-    <!-- Modal Detalle Gato -->
+   <!-- Modal Detalle Gato (Catálogo) -->
     <div class="modal" id="catModal">
         <div class="modal-content">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <span class="modal-close" onclick="closeModal('catModal')">&times;</span>
             <div class="modal-gallery">
                 <img src="" alt="" class="main-image" id="modalMainImg">
                 <div class="thumbnails" id="modalThumbnails"></div>
@@ -137,7 +154,7 @@
                 <div class="info-row">
                     <span class="info-label">Personalidad:</span> <span id="modalPersonality"></span>
                 </div>
-                <div class="info-row">
+                <div class="info-row" style="border-bottom: none;">
                     <span class="info-label">Descripción:</span>
                     <p id="modalDesc" style="margin-top: 5px; font-size: 0.95rem;"></p>
                 </div>
@@ -149,18 +166,103 @@
         </div>
     </div>
 
+        <!-- Modal Detalle Progenitor (Familia) -->
+    <div class="modal" id="parentModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('parentModal')">&times;</span>
+            <div class="modal-gallery">
+                <img src="" alt="" class="main-image" id="parentMainImg">
+                <div class="thumbnails" id="parentThumbnails"></div>
+            </div>
+            <div class="modal-info">
+                <h2 id="parentName">Nombre del Progenitor</h2>
+                <p style="color: var(--color-accent); font-weight: bold; margin-bottom: 20px;" id="parentRole"></p>
+                <p id="parentFullDesc" style="line-height: 1.6; color: #555; margin-bottom: 20px;"></p>
+                
+                <div class="info-row" style="border-bottom: none;">
+                    <span class="info-label">Características Destacadas:</span>
+                    <p id="parentTraits" style="margin-top: 5px; font-size: 0.95rem;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Certificado (Director) -->
+    <div class="modal" id="certificateModal">
+        <div class="modal-content single-column">
+            <span class="modal-close" onclick="closeModal('certificateModal')">&times;</span>
+            <h3 style="text-align: center; margin-bottom: 10px; color: var(--color-text-dark);">Certificación Oficial</h3>
+            <p style="text-align: center; color: var(--color-secondary); margin-bottom: 20px;">Criador Registrado y Certificado</p>
+            <div id="certificateContent" class="certificate-container">
+                <!-- Se llena dinámicamente con JS -->
+            </div>
+            <p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: #888;">
+                Documento verificado por la asociación felina Internacional.
+            </p>
+        </div>
+    </div>
+
+    <section id="historias">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Historias Felinas Felices
+            </h2>
+
+            <p class="testimonials-subtitle">
+                Clientes que encontraron su compañero ideal.
+            </p>
+
+            <div id="testimonialsGrid" class="testimonials-grid">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Modal Testimonios -->
+
+    <div id="testimonialModal" class="testimonial-modal">
+
+        <div class="testimonial-modal-content">
+
+            <span class="testimonial-close">
+                &times;
+            </span>
+
+            <img id="testimonialModalImg">
+
+            <div class="testimonial-modal-info">
+
+                <h3 id="testimonialModalName"></h3>
+
+                <p id="testimonialModalText"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
     <!-- Sección Quiénes Somos -->
     <section id="about">
         <div class="container">
             <h2 class="section-title">Quiénes Somos</h2>
             <div class="about-grid">
                 <div class="about-text">
+                    <h3>Somos PokeCats</h3>
+                    <p>PokeCats nació gracias al amor por los gatos y los Pokémon, combinando estas dos pasiones para crear PokeCats. 
+                         Cada gatito british shorthair conserva el nombre de un Pokémon.</p>
                     <h3>Nuestra Misión</h3>
-                    <p>En PockeCats, nos dedicamos a preservar y mejorar la raza British Shorthair, criando gatos que no solo cumplan con los estándares estéticos, sino que destaquen por su salud robusta y temperamento equilibrado.</p>
-                    
+                    <p>Nuestro criadero nació en Colombia en el año 2020.
+                         Con el objetivo de disfrutar la raza y criar adorables gatitos  bitish shorthair, 
+                         para las familias que desean tener un ejemplar en su hogar</p>
+
                     <h3>Nuestra Visión</h3>
-                    <p>Ser reconocidos como el criadero líder en calidad y ética, creando familias felices a través de la conexión especial que solo un British Shorthair puede ofrecer.</p>
-                    
+                    <p>Continuar criando hermosos ejemplares british shorthair rodeados de amor y contacto humano,
+                         para que crezcan con seguridad y confianza, facilitando la adaptación a su nuevo hogar.</p>
+
                     <h3>Valores</h3>
                     <ul style="list-style: disc; margin-left: 20px; color: var(--color-secondary);">
                         <li>Transparencia total en el proceso de adopción.</li>
@@ -168,7 +270,7 @@
                         <li>Acompañamiento post-venta continuo.</li>
                     </ul>
                 </div>
-                
+
                 <div class="director-card" id="directorCard">
                     <!-- Se llena con JS -->
                 </div>
@@ -190,5 +292,5 @@
         </div>
     </footer>
 </body>
-</html>
 
+</html>
