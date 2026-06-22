@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeCats - British Shorthair de Excelencia</title>
+    <link rel="icon" href="assets/images/logo/logo.png" type="image/x-icon">
 
     <!-- SEO Meta Tags -->
     <meta name="description"
@@ -24,30 +25,18 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">
-                    <!-- Placeholder Logo SVG -->
-                    <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="50" cy="50" r="45" stroke="#FFD700" stroke-width="5" />
-                        <path d="M30 40 L40 20 L50 40 L60 20 L70 40" stroke="#333" stroke-width="5"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <circle cx="35" cy="55" r="5" fill="#333" />
-                        <circle cx="65" cy="55" r="5" fill="#333" />
-                        <path d="M40 70 Q50 80 60 70" stroke="#333" stroke-width="3" stroke-linecap="round" />
-                    </svg>
-                    Poke<span>Cats</span>
+
+                <a href="#home" class="logo">
+
+                    <img src="assets/images/logo/logo.png" alt="PockeCats Logo"
+                        style="width:70px;height:70px;object-fit:contain;">
+
+                    <span class="logo-text">
+                        Poke<span class="accent">Cats</span>
+                    </span>
+
                 </a>
-                <!-- 
-                    <a href="#" class="logo">
 
-                      <img
-                        src="assets/images/logo/logo.jpeg"
-                        alt="PockeCats Logo"
-                        style="width:50px;height:50px;object-fit:contain;">
-
-                        Pocke<span>Cats</span>
-
-                    </a>
-                 -->
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#family">Padres</a></li>
@@ -66,42 +55,47 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>La Nobleza Elegancia Del British Shorthair</h1>
-                    <p>Descubre la compañía perfecta al lado de nuestros ejemplares, con buenos estándares de salud, belleza,
-                             ética y temperamento equilibrado.</p>
-                             <p>Criamos hermosos gatos british shorthair, en Bogotá Colombia,
-                         registrados: The International Cat Association (TICA).</p>
-                         
+                    <p>Descubre la compañía perfecta al lado de nuestros ejemplares, con buenos estándares de salud,
+                        belleza,
+                        ética y temperamento equilibrado.</p>
+                    <p>Criamos hermosos gatos British Shorthair, en Bogotá, Colombia,
+                        registrados: The International Cat Association (TICA).</p>
+
                     <a href="#catalog" class="btn btn-primary">Ver Gatitos Disponibles</a>
 
                     <div class="features-grid">
                         <div class="feature-card ">
                             <span class="feature-icon">🛡️</span>
-                            <h3>Salud Garantizada</h3>                            
-                               <ul>
+                            <h3>Salud Garantizada</h3>
+                            <ul>
                                 <li>Primera dosis de la vacuna triple viral.</li>
                                 <li>Esterilizados.</li>
                                 <li>Examen de leucemia e inmunodeficiencia.</li>
-                               </ul>
+                            </ul>
                         </div>
                         <div class="feature-card">
                             <span class="feature-icon">❤️</span>
                             <h3>Comportamiento</h3>
-                            <p>🐈Comiendo y yendo a la arena por sí solo.</p>
+                            <p>🐈Comiendo e yendo a la arena por sí solo.</p>
                             <p>😻Independientes, sociables y cariñosos.</p>
                         </div>
                         <div class="feature-card">
                             <span class="feature-icon">🏆</span>
                             <h3>Pedigree</h3>
-                            <p>Líneas de sangre campeona Breeder Slip.</p>
-                        </div>                       
+                            <p> Breeder Slip.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="hero-image-container">
-                    <!-- Imagen generada dinámicamente o placeholder -->
-                    <img src="assets\images\home\hero.jpg.jpeg" alt="Gato British Shorthair Azul" id="heroImg">
-                    
+                <div class="hero-images">
+                    <div class="hero-image-container">
+                        <img src="assets/images/home/hero.jpg.jpeg" alt="British Shorthair" id="heroImg">
+                    </div>
+
+                    <div class="hero-image-container">
+                        <img src="assets/images/home/hero2.jpeg" alt="British Shorthair" id="heroImg2">
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -133,7 +127,7 @@
         </div>
     </section>
 
-   <!-- Modal Detalle Gato (Catálogo) -->
+    <!-- Modal Detalle Gato (Catálogo) -->
     <div class="modal" id="catModal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('catModal')">&times;</span>
@@ -143,8 +137,7 @@
             </div>
             <div class="modal-info">
                 <h2 id="modalName">Nombre</h2>
-                <div class="modal-price" id="modalPrice">$0.00</div>
-                
+
                 <div class="info-row">
                     <span class="info-label">Edad:</span> <span id="modalAge"></span>
                 </div>
@@ -166,7 +159,7 @@
         </div>
     </div>
 
-        <!-- Modal Detalle Progenitor (Familia) -->
+    <!-- Modal Detalle Progenitor (Familia) -->
     <div class="modal" id="parentModal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeModal('parentModal')">&times;</span>
@@ -178,7 +171,7 @@
                 <h2 id="parentName">Nombre del Progenitor</h2>
                 <p style="color: var(--color-accent); font-weight: bold; margin-bottom: 20px;" id="parentRole"></p>
                 <p id="parentFullDesc" style="line-height: 1.6; color: #555; margin-bottom: 20px;"></p>
-                
+
                 <div class="info-row" style="border-bottom: none;">
                     <span class="info-label">Características Destacadas:</span>
                     <p id="parentTraits" style="margin-top: 5px; font-size: 0.95rem;"></p>
@@ -191,8 +184,10 @@
     <div class="modal" id="certificateModal">
         <div class="modal-content single-column">
             <span class="modal-close" onclick="closeModal('certificateModal')">&times;</span>
-            <h3 style="text-align: center; margin-bottom: 10px; color: var(--color-text-dark);">Certificación Oficial</h3>
-            <p style="text-align: center; color: var(--color-secondary); margin-bottom: 20px;">Criador Registrado y Certificado</p>
+            <h3 style="text-align: center; margin-bottom: 10px; color: var(--color-text-dark);">Certificación Oficial
+            </h3>
+            <p style="text-align: center; color: var(--color-secondary); margin-bottom: 20px;">Criador Registrado y
+                Certificado</p>
             <div id="certificateContent" class="certificate-container">
                 <!-- Se llena dinámicamente con JS -->
             </div>
@@ -207,7 +202,7 @@
         <div class="container">
 
             <h2 class="section-title">
-                Historias Felinas Felices
+                Historias De Nuestros Clientes
             </h2>
 
             <p class="testimonials-subtitle">
@@ -248,20 +243,21 @@
     <!-- Sección Quiénes Somos -->
     <section id="about">
         <div class="container">
-            <h2 class="section-title">Quiénes Somos</h2>
+            <h2 class="section-title">Somos PokeCats</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <h3>Somos PokeCats</h3>
-                    <p>PokeCats nació gracias al amor por los gatos y los Pokémon, combinando estas dos pasiones para crear PokeCats. 
-                         Cada gatito british shorthair conserva el nombre de un Pokémon.</p>
+                    <h3>PokeCats</h3>
+                    <p>PokeCats nació gracias al amor por los gatos y los Pokémon, combinando estas dos pasiones para
+                        crear PokeCats.
+                        Cada gatito British Shorthair conserva el nombre de un Pokémon.</p>
                     <h3>Nuestra Misión</h3>
                     <p>Nuestro criadero nació en Colombia en el año 2020.
-                         Con el objetivo de disfrutar la raza y criar adorables gatitos  bitish shorthair, 
-                         para las familias que desean tener un ejemplar en su hogar</p>
+                        Con el objetivo de disfrutar la raza y criar adorables gatitos British Shorthair,
+                        para las familias que desean tener un ejemplar en su hogar</p>
 
                     <h3>Nuestra Visión</h3>
-                    <p>Continuar criando hermosos ejemplares british shorthair rodeados de amor y contacto humano,
-                         para que crezcan con seguridad y confianza, facilitando la adaptación a su nuevo hogar.</p>
+                    <p>Continuar criando hermosos ejemplares British Shorthair rodeados de amor y contacto humano,
+                        para que crezcan con seguridad y confianza, facilitando la adaptación a su nuevo hogar.</p>
 
                     <h3>Valores</h3>
                     <ul style="list-style: disc; margin-left: 20px; color: var(--color-secondary);">

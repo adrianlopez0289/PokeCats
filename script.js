@@ -7,13 +7,13 @@
 const CONFIG = {
     // Información de contacto
     whatsappNumber: "17789226558", // Formato internacional sin + ni espacios
-    email: "contacto@pocketcats.com",
-    phoneDisplay: "+57 300 123 4567",
+    email: "pokecats2020@gmail.com",
+    phoneDisplay: "+1 7789226558",
 
     // Redes sociales (URLs completas)
     socialMedia: {
-        facebook: "https://facebook.com/pocketcats",
-        instagram: "https://instagram.com/pocketcats",
+        facebook: "https://www.facebook.com/share/1GgmcrBeTC/?mibextid=wwXIfr",
+        instagram: "https://www.instagram.com/pokecats_british_colombia?igsh=MWxmcTF4cjAxM2NhZw==",
         tiktok: "https://tiktok.com/@pocketcats"
     },
 
@@ -21,7 +21,7 @@ const CONFIG = {
     director: {
         name: "Luceny Lopez Gallego",
         role: "Directora Ejecutivo & Criador Senior",
-        bio: "Más de 15 años de experiencia en genética felina y crianza responsable de British Shorthair.",
+        bio: "Más de 4 años de experiencia en genética felina y crianza responsable de British Shorthair.",
         photo: "assets/images/about/ceo.jpeg", // Reemplazar con foto real
         certificate: "assets/images/about/certificado.jpeg" // Enlace al PDF si existe
     }
@@ -36,133 +36,119 @@ const CONFIG = {
 const catsCatalog = [
     {
         id: 101,
-        name: "Luna",
+        name: "Poli",
         age: "3 meses",
-        color: "Azul Sólido",
+        color: "Odd-eyed White shaded",
         price: "$1.200.000 COP",
         status: "Disponible",
         personality: "Tranquila, observadora y muy mimosa.",
-        description: "Luna es una hembra hermosa con un pelaje denso y ojos cobrizos perfectos. Es la compañera ideal para apartamentos.",
+        description: "Poli es una hembra hermosa con un pelaje denso blanco y ojos azules profundos. Es la compañera ideal para apartamentos.",
         images: [
-            "assets/images/catalog/luna1.jpeg",
-            "assets/images/catalog/luna2.jpeg"
-        ]
-    },
-    {
-        id: 102,
-        name: "Oliver",
-        age: "4 meses",
-        color: "Blue Point",
-        price: "$1.500.000 COP",
-        status: "Disponible",
-        personality: "Juguetón, curioso y sociable.",
-        description: "Oliver tiene una marca distintiva en su nariz y unas patitas blancas. Le encanta jugar con plumas y dormir en regazos.",
-        images: [
-            "assets/images/catalog/oliver1.jpeg",
-            "assets/images/catalog/oliver2.jpg"
+            "assets/images/catalog/Poli1.jpeg",
+            "assets/images/catalog/poli2.jpeg",
+            "assets/images/catalog/poli3.jpeg",
+            "assets/images/catalog/poli4.jpeg",
+            "assets/images/catalog/poli5.jpeg"
+            
+
+
         ]
     },
     {
         id: 103,
-        name: "Simba",
+        name: "Growlithe",
         age: "3.5 meses",
-        color: "Golden Shaded",
-        price: "$2.000.000 COP",
+        color: "Golden Spotted",
+        price: "$2.000.000 COP", 
         status: "Reservado",
         personality: "Enérgico y valiente.",
-        description: "Un ejemplar espectacular de color dorado. Su pelaje brilla bajo la luz. Tiene un carácter fuerte pero muy leal.",
+        description: "Un ejemplar espectacular con colores cálidos. Su pelaje brilla bajo la luz. Tiene un carácter tierno y muy leal.",
         images: [
-            "assets/images/catalog/simba.jpg",
-            "assets/images/catalog/simba2.jpg"
+            "assets/images/catalog/growlithe1.jpeg",
+            "assets/images/catalog/growlithe2.jpeg",
+            "assets/images/catalog/growlithe3.jpeg",
+            "assets/images/catalog/growlithe4.jpeg",
+            "assets/images/catalog/growlithe5.jpeg"
+
+            
         ]
-    },
-    {
-        id: 104,
-        name: "Mia",
-        age: "3 meses",
-        color: "Gris",
-        price: "$1.350.000 COP",
-        status: "Disponible",
-        personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
-        images: [
-            "assets/images/catalog/mia.jpeg",
-            "assets/images/catalog/mia2.jpg"
-        ]
-    },
+    },   
     {
         id: 105,
-        name: "Pan",
-        age: "3 meses",
-        color: "albino",
+        name: "Arcanin",
+        age: "8 meses",
+        color: "Red Tabby",
         price: "$1.350.000 COP",
         status: "Reservado",
-        personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
+        personality: "Dulce y silencios.",
+        description: "El color Red Tabby es muy llamativo por sus colores solares. Arcanine es un gato juguetón y amoroso que siempre te dará compañía.",
         images: [
-            "assets/images/catalog/pan.jpg",
-            "assets/images/catalog/mia2.jpg"
+            "assets/images/catalog/arcanin1.jpeg",
+            "assets/images/home/hero2.jpeg",
+            "assets/images/catalog/arcanin3.jpeg",
+            "assets/images/catalog/arcanin4.jpeg",
+            "assets/images/catalog/arcanin5.jpeg"
+
+
         ]
-    },
-    {
-        id: 106,
-        name: "Capuchino",
-        age: "3 meses",
-        color: "Capuchino",
-        price: "$1.350.000 COP",
-        status: "Disponible",
-        personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
-        images: [
-            "assets/images/catalog/capuchino.png",
-            "assets/images/catalog/mia2.jpg"
-        ]
-    },
+    },    
     {
         id: 107,
-        name: "Avatar",
+        name: "Poochy",
         age: "3 meses",
-        color: "Gris, Negro",
+        color: "Silver Tabby",
         price: "$1.350.000 COP",
         status: "Disponible",
         personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
+        description: "El color silver es un color muy elegante y premium. Poochy es una gata con personalidad imponente y cariñosa a la vez.",
         images: [
-            "assets/images/catalog/avatar1.jpeg",
-            "assets/images/catalog/avatar2.jpeg",
-            "assets/images/catalog/avatar3.jpeg",
-            "assets/images/catalog/avatar4.jpeg",
-            "assets/images/catalog/avatar5.jpeg"
+            "assets/images/catalog/poochy1.jpeg",
+            "assets/images/catalog/poochy2.jpeg",
+            "assets/images/catalog/poochy3.jpeg",
+            "assets/images/catalog/poochy4.jpeg",
+            "assets/images/catalog/poochy5.jpeg",
+            "assets/images/catalog/poochy6.jpeg"           
+                       
         ]
     },
     {
         id: 108,
-        name: "vigotes",
+        name: "Persian",
         age: "3 meses",
-        color: "Gris, Negro",
+        color: "Brown Tabby",
         price: "$1.350.000 COP",
         status: "Disponible",
-        personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
+        personality: "Dulce y silencioso.",
+        description: "El color Brown Tabby es muy llamativo por sus diferentes colores y su suavidad. Persian es un gato que ronronea apenas lo tocas.",
         images: [
-            "assets/images/catalog/vigotes1.jpeg",
-            "assets/images/catalog/vigotes2.jpeg"
+            "assets/images/catalog/persian1.jpeg",
+            "assets/images/catalog/persian2.jpeg",
+            "assets/images/catalog/persian3.jpeg",
+            "assets/images/catalog/persian4.jpeg",
+            "assets/images/catalog/persian5.jpeg"
+
+
         ]
     },
     {
         id: 109,
-        name: "Sabrina",
+        name: "Meowth",
         age: "3 meses",
-        color: "Gris, Negro",
+        color: "Silver Torbie",
         price: "$1.350.000 COP",
         status: "Disponible",
         personality: "Dulce y silenciosa.",
-        description: "El color lila es muy buscado por su suavidad. Mia es una gata que ronronea apenas la tocas.",
+        description: "El color Silver Torbie es muy buscado por su suavidad. Meowth es una gata que ronronea apenas la tocas.",
         images: [
-            "assets/images/catalog/sabrina1.jpeg",
-            "assets/images/catalog/sabrina2.jpeg"
+            "assets/images/catalog/meowth1.jpeg",
+            "assets/images/catalog/meowth2.jpeg",
+            "assets/images/catalog/meowth3.jpeg",
+            "assets/images/catalog/meowth4.jpeg",
+            "assets/images/catalog/meowth5.jpeg",  
+            "assets/images/catalog/meowth6.jpeg"      
         ]
-    }
+    },
+    
     
 
 ];
@@ -175,36 +161,66 @@ const catsCatalog = [
 const parentsData = [
     {
                 name: "Growly ",
-                role: "Padre Oficial & Semental Principal",
-                shortDesc: "4 años. Color Black silver mackerel tabby .",
-                fullDescription: "Growly es nuestro semental principal y orgullo del criadero.Nacida en ucraniana, Cuenta con pedigree Breeder Slip. Posee una estructura ósea robusta, temperamento extremadamente noble característica de la raza. Es padre de las camadas A y B, transmitiendo su excelente calidad de pelaje corto y denzo y ojos rodandosy verdes intensos.",
-                traits: "Independiente y cariñoso ",
+                role: "Padre Oficial & Semental Principal.",
+                shortDesc: "4 años. Color: Black silver mackerel tabby. Temperamento dócil.",
+                fullDescription: "Growly es nuestro semental principal y orgullo del criadero. Nacido en Colombia, cuenta con pedigree. Posee una estructura ósea robusta y temperamento extremadamente noble, característica de la raza. Es padre de las camadas A y B, transmitiendo su excelente calidad de pelaje corto y denso y ojos rodandos y verdes intensos.",
+                traits: "Independiente y cariñoso.",
                 images: [
                     "assets/images/family/growly1.jpeg",
                     "assets/images/family/growly2.jpeg",
+                    "assets/images/family/growly3.jpeg",
+                    "assets/images/family/growly4.jpeg",
+                    "assets/images/family/growly5.jpeg",
+                    "assets/images/family/growly6.jpeg",
+                    "assets/images/family/growly3.jpeg",
                     "assets/images/family/growly3.jpeg"
                 ]
             },
             {
-                name: "Fatima",
+                name: "Fátima",
                 role: "Madre Oficial & Línea Importada",
-                shortDesc: "2.5 años. Color Goden Shaded. Temperamento dócil.",
-                fullDescription: "Fatima representa la elegancia en su máxima expresión. Nacida en ucraniana, posee el característico color Goden Shaded con ojos redondos color verde profundos y pelaje corto y deso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
+                shortDesc: "2.5 años. Color: Goden Shaded. Temperamento dócil.",
+                fullDescription: "Fátima representa la elegancia en su máxima expresión. Nacida en Ucrania, posee el característico color Golden Shaded con ojos redondos color verde profundo y pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
                 traits: "Independiente y Observadora.",
                 images: [
                     "assets/images/family/fatima1.jpeg",
-                    "https://image.qwenlm.ai/public_source/ffd73aef-aa97-4b89-bcc3-fef8f6755655/150effa2b-3cf8-43d1-950a-aeb8d9e62bed.png"
+                    "assets/images/family/fatima2.jpeg",
+                    "assets/images/family/fatima3.jpeg",
+                    "assets/images/family/fatima4.jpeg",
+                    "assets/images/family/fatima5.jpeg",
+                    "assets/images/family/fatima6.jpeg",
+                    "assets/images/family/fatima7.jpeg"
+
                 ]
             },
             {
                 name: "Tsarina",
-                role: "Madre Oficial & Línea Importada",
-                shortDesc: "2.5 años. Color Black golden shaded torbie . Temperamento dócil.",
-                fullDescription: "Tsarina representa la ternura y belleza de de Colombia. Nacida en Colombia, posee el característico color Black golden shaded torbie con ojos redondos cobrizos profundos y pelaje corto y deso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
-                traits: "Independiente y Observadora y Curiosa.",
+                role: "Madre Oficial & Línea Nacional",
+                shortDesc: "2 años. Color: silver shaded torbie. Temperamento dócil.",
+                fullDescription: "Tsarina representa la ternura y belleza de Colombia. Nacida en Colombia, posee el característico color Black golden shaded torbie con ojos redondos cobrizos profundos y pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
+                traits: "Observadora y Curiosa.",
                 images: [
                     "assets/images/family/tsarina1.jpeg",
-                    "https://image.qwenlm.ai/public_source/ffd73aef-aa97-4b89-bcc3-fef8f6755655/150effa2b-3cf8-43d1-950a-aeb8d9e62bed.png"
+                    "assets/images/family/tsarina2.jpeg",
+                    "assets/images/family/tsarina3.jpeg",
+                    "assets/images/family/tsarina4.jpeg",
+                    "assets/images/family/tsarina5.jpeg"
+                ]
+            },
+              {
+                name: "Nidorina",
+                role: "Madre Oficial & Línea Importada",
+                shortDesc: "3 años. Color: whith shaded torbie . Temperamento dócil.",
+                fullDescription: "Nidorina es la definición perfecta de la nobleza felina, majestuosa como un destello de plata y cálida como el mejor de los hogares. A sus tres años, esta hermosa madre posee una presencia imponente y robusta, con un cuerpo fuerte que refleja su instinto protector y su gran corazón.",
+                traits: "Independiente y Observadora y Curiosa.",
+                images: [
+                    "assets/images/family/nidorina1.jpeg",
+                    "assets/images/family/nidorina2.jpeg",
+                    "assets/images/family/nidorina3.jpeg",
+                    "assets/images/family/nidorina4.jpeg",
+                    "assets/images/family/nidorina5.jpeg",
+                    "assets/images/home/hero.jpg.jpeg"
+
                 ]
             }
 ];
@@ -283,7 +299,6 @@ function renderParents() {
                                 <span>${cat.age}</span>
                                 <span>${cat.color}</span>
                             </div>
-                            <div style="margin-top: 10px; font-weight: bold; color: var(--color-text-dark);">${cat.price}</div>
                         </div>
                     </div>
                 `;
@@ -297,7 +312,6 @@ function renderParents() {
             if (!cat) return;
 
             document.getElementById('modalName').innerText = cat.name;
-            document.getElementById('modalPrice').innerText = cat.price;
             document.getElementById('modalAge').innerText = cat.age;
             document.getElementById('modalColor').innerText = cat.color;
             document.getElementById('modalPersonality').innerText = cat.personality;
@@ -459,7 +473,7 @@ const testimonials = [
 
         name: "Laura Pérez",
 
-        image: "assets/images/testimonials/testimonio4.jpg",
+        image: "assets/images/testimonials/testimonio4.jpeg",
 
         comment:
             "Excelente acompañamiento antes y después de la entrega. Recomiendo totalmente a PockeCats."
