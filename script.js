@@ -19,8 +19,8 @@ const CONFIG = {
 
     // Información del director
     director: {
-        name: "Luceny Lopez Gallego",
-        role: "Directora Ejecutivo & Criador Senior",
+        name: "Luceny Lopez",
+        role: "Criadora de British Shorthair",
         bio: "Más de 4 años de experiencia en genética felina y crianza responsable de British Shorthair.",
         photo: "assets/images/about/ceo.jpeg", // Reemplazar con foto real
         certificate: "assets/images/about/certificado.jpeg" // Enlace al PDF si existe
@@ -38,13 +38,13 @@ const catsCatalog = [
         id: 101,
         name: "Poli",
         age: "3 meses",
-        color: "Odd-eyed White shaded",
+        color: "Silver shaded",
         price: "$1.200.000 COP",
         status: "Disponible",
         personality: "Tranquila, observadora y muy mimosa.",
         description: "Poli es una hembra hermosa con un pelaje denso blanco y ojos azules profundos. Es la compañera ideal para apartamentos.",
         images: [
-            "assets/images/catalog/Poli1.jpeg",
+            "assets/images/catalog/poli1.jpeg",
             "assets/images/catalog/poli2.jpeg",
             "assets/images/catalog/poli3.jpeg",
             "assets/images/catalog/poli4.jpeg",
@@ -58,16 +58,14 @@ const catsCatalog = [
         id: 103,
         name: "Growlithe",
         age: "3.5 meses",
-        color: "Golden Spotted",
+        color: "Golden shaded",
         price: "$2.000.000 COP", 
         status: "Reservado",
         personality: "Enérgico y valiente.",
         description: "Un ejemplar espectacular con colores cálidos. Su pelaje brilla bajo la luz. Tiene un carácter tierno y muy leal.",
         images: [
-            "assets/images/catalog/growlithe1.jpeg",
             "assets/images/catalog/growlithe2.jpeg",
             "assets/images/catalog/growlithe3.jpeg",
-            "assets/images/catalog/growlithe4.jpeg",
             "assets/images/catalog/growlithe5.jpeg"
 
             
@@ -85,7 +83,6 @@ const catsCatalog = [
         images: [
             "assets/images/catalog/arcanin1.jpeg",
             "assets/images/home/hero2.jpeg",
-            "assets/images/catalog/arcanin3.jpeg",
             "assets/images/catalog/arcanin4.jpeg",
             "assets/images/catalog/arcanin5.jpeg"
 
@@ -96,7 +93,7 @@ const catsCatalog = [
         id: 107,
         name: "Poochy",
         age: "3 meses",
-        color: "Silver Tabby",
+        color: "Silver shaded",
         price: "$1.350.000 COP",
         status: "Disponible",
         personality: "Dulce y silenciosa.",
@@ -115,17 +112,16 @@ const catsCatalog = [
         id: 108,
         name: "Persian",
         age: "3 meses",
-        color: "Brown Tabby",
+        color: "Silver Tabby",
         price: "$1.350.000 COP",
         status: "Disponible",
         personality: "Dulce y silencioso.",
-        description: "El color Brown Tabby es muy llamativo por sus diferentes colores y su suavidad. Persian es un gato que ronronea apenas lo tocas.",
+        description: "El color Silver Tabby es muy llamativo por sus diferentes colores y su suavidad. Persian es un gato que ronronea apenas lo tocas.",
         images: [
             "assets/images/catalog/persian1.jpeg",
             "assets/images/catalog/persian2.jpeg",
             "assets/images/catalog/persian3.jpeg",
             "assets/images/catalog/persian4.jpeg",
-            "assets/images/catalog/persian5.jpeg"
 
 
         ]
@@ -134,11 +130,11 @@ const catsCatalog = [
         id: 109,
         name: "Meowth",
         age: "3 meses",
-        color: "Silver Torbie",
+        color: "Silver Tabby",
         price: "$1.350.000 COP",
         status: "Disponible",
         personality: "Dulce y silenciosa.",
-        description: "El color Silver Torbie es muy buscado por su suavidad. Meowth es una gata que ronronea apenas la tocas.",
+        description: "El color Silver Tabby es muy buscado por su elegancia. Meowth es una gata muy tierna y cariñosa.",
         images: [
             "assets/images/catalog/meowth1.jpeg",
             "assets/images/catalog/meowth2.jpeg",
@@ -163,7 +159,7 @@ const parentsData = [
                 name: "Growly ",
                 role: "Padre Oficial & Semental Principal.",
                 shortDesc: "4 años. Color: Black silver mackerel tabby. Temperamento dócil.",
-                fullDescription: "Growly es nuestro semental principal y orgullo del criadero. Nacido en Colombia, cuenta con pedigree. Posee una estructura ósea robusta y temperamento extremadamente noble, característica de la raza. Es padre de las camadas A y B, transmitiendo su excelente calidad de pelaje corto y denso y ojos rodandos y verdes intensos.",
+                fullDescription: "Growly es nuestro semental principal y orgullo del criadero. Nacido en Colombia, cuenta con pedigree. Posee una estructura ósea robusta y temperamento extremadamente noble, característica de la raza; transmitiendo su excelente calidad de pelaje corto, denso, ojos rodandos y verdes intensos.",
                 traits: "Independiente y cariñoso.",
                 images: [
                     "assets/images/family/growly1.jpeg",
@@ -171,16 +167,14 @@ const parentsData = [
                     "assets/images/family/growly3.jpeg",
                     "assets/images/family/growly4.jpeg",
                     "assets/images/family/growly5.jpeg",
-                    "assets/images/family/growly6.jpeg",
-                    "assets/images/family/growly3.jpeg",
-                    "assets/images/family/growly3.jpeg"
+                    "assets/images/family/growly6.jpeg",                    
                 ]
             },
             {
                 name: "Fátima",
                 role: "Madre Oficial & Línea Importada",
                 shortDesc: "2.5 años. Color: Goden Shaded. Temperamento dócil.",
-                fullDescription: "Fátima representa la elegancia en su máxima expresión. Nacida en Ucrania, posee el característico color Golden Shaded con ojos redondos color verde profundo y pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
+                fullDescription: "Fátima representa la elegancia en su máxima expresión. Nacida en Ucrania, posee el característico color Golden Shaded con ojos redondos color verde profundo, pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
                 traits: "Independiente y Observadora.",
                 images: [
                     "assets/images/family/fatima1.jpeg",
@@ -197,7 +191,7 @@ const parentsData = [
                 name: "Tsarina",
                 role: "Madre Oficial & Línea Nacional",
                 shortDesc: "2 años. Color: silver shaded torbie. Temperamento dócil.",
-                fullDescription: "Tsarina representa la ternura y belleza de Colombia. Nacida en Colombia, posee el característico color Black golden shaded torbie con ojos redondos cobrizos profundos y pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
+                fullDescription: "Tsarina representa la ternura y belleza de Colombia. Nacida en Colombia, posee el característico color Black golden shaded torbie con ojos redondos cobrizos profundos, pelaje corto y denso. Su temperamento es extremadamente dócil y maternal, cualidades que transmite fielmente a sus cachorros. Es una madre ejemplar que cuida con dedicación cada camada.",
                 traits: "Observadora y Curiosa.",
                 images: [
                     "assets/images/family/tsarina1.jpeg",
@@ -210,13 +204,13 @@ const parentsData = [
               {
                 name: "Nidorina",
                 role: "Madre Oficial & Línea Importada",
-                shortDesc: "3 años. Color: whith shaded torbie . Temperamento dócil.",
-                fullDescription: "Nidorina es la definición perfecta de la nobleza felina, majestuosa como un destello de plata y cálida como el mejor de los hogares. A sus tres años, esta hermosa madre posee una presencia imponente y robusta, con un cuerpo fuerte que refleja su instinto protector y su gran corazón.",
-                traits: "Independiente y Observadora y Curiosa.",
+                shortDesc: "3 años. Color: Silver shaded. Temperamento dócil.",
+                fullDescription: "Nidorina es la definición perfecta de la nobleza felina, majestuosa como un destello de plata y cálida para el hogar. A sus tres años, esta hermosa madre posee una presencia imponente y robusta, con un cuerpo fuerte que refleja su instinto protector y su gran corazón.",
+                traits: "Independiente, Observadora y Curiosa.",
                 images: [
-                    "assets/images/family/nidorina1.jpeg",
-                    "assets/images/family/nidorina2.jpeg",
                     "assets/images/family/nidorina3.jpeg",
+                    "assets/images/family/nidorina2.jpeg",
+                    "assets/images/family/nidorina1.jpeg",
                     "assets/images/family/nidorina4.jpeg",
                     "assets/images/family/nidorina5.jpeg",
                     "assets/images/home/hero.jpg.jpeg"
@@ -243,22 +237,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const directorHTML = `
                 <img src="${CONFIG.director.photo}" alt="${CONFIG.director.name}" class="director-photo">
                 <h3>${CONFIG.director.name}</h3>
-                <p style="color: var(--color-accent); font-weight: bold; margin-bottom: 10px;">${CONFIG.director.role}</p>
+                <p style=" paint-order: stroke fill; font-weight: bold; margin-bottom: 10px;">${CONFIG.director.role}</p>
                 <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">${CONFIG.director.bio}</p>
                 <button class="btn btn-outline" onclick="openCertificateModal()" style="width: 100%; margin-bottom: 20px;">
                     📜 Ver Certificado de Criador
                 </button>
                 <div class="social-icons">
-                    <a href="${CONFIG.socialMedia.facebook}" target="_blank" class="social-link" title="Facebook">F</a>
-                    <a href="${CONFIG.socialMedia.instagram}" target="_blank" class="social-link" title="Instagram">I</a>
-                    <a href="${CONFIG.socialMedia.tiktok}" target="_blank" class="social-link" title="TikTok">T</a>
+                    <a href="${CONFIG.socialMedia.facebook}" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="${CONFIG.socialMedia.instagram}" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="${CONFIG.socialMedia.tiktok}" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/${CONFIG.whatsappNumber}" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             `;
             document.getElementById('directorCard').innerHTML = directorHTML;
 
             // Footer Info
             const footerHTML = `
-                <p> ${CONFIG.phoneDisplay} | ✉️ ${CONFIG.email}</p>
+                <p> <i class="fab fa-whatsapp"></i> ${CONFIG.phoneDisplay} | <i class="fas fa-envelope"></i> ${CONFIG.email}</p>
             `;
             document.getElementById('footerContactInfo').innerHTML = footerHTML;
         }
@@ -297,7 +292,7 @@ function renderParents() {
                             <div class="cat-name">${cat.name}</div>
                             <div class="cat-meta">
                                 <span>${cat.age}</span>
-                                <span>${cat.color}</span>
+                                <span style="font-weight: bold; font-style: italic;">${cat.color}</span>
                             </div>
                         </div>
                     </div>

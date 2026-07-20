@@ -12,7 +12,7 @@
             /* Texto secundario / Gris medio */
             --color-text-dark: #333333;
             /* Texto principal para contraste sobre blanco */
-            --color-accent: #FDF60A;
+            --color-accent: #e9d902;
             /* Amarillo dorado (Acentos) */
             --color-bg-light: #F9F9F9;
             /* Fondos alternativos suaves */
@@ -164,6 +164,8 @@
 
         .logo-text span {
             color: var(--color-accent);
+             -webkit-text-stroke: 2px black;
+             paint-order: stroke fill;
         }
 
         .nav-links {
@@ -404,12 +406,13 @@
             margin-bottom: 15px;
         }
 
-        .view-more-hint {
-            color: var(--color-accent);
+        .view-more-hint {            
             font-weight: bold;
             font-size: 0.85rem;
             text-transform: uppercase;
             letter-spacing: 1px;
+            font-style: italic;
+            
         }
 
         .catalog-cta {
@@ -814,8 +817,8 @@
 
         .testimonial-card img {
             width: 100%;
-            height: 250px;
-            object-fit: cover;
+            height: auto;
+            object-fit: contain;
         }
 
         .testimonial-preview {
